@@ -1,0 +1,22 @@
+CREATE TABLE relatorio_cadop (
+  Registro_ANS INT, 
+  CNPJ VARCHAR(18),
+  Razao_Social VARCHAR(255),
+  Nome_Fantasia VARCHAR(255),
+  Modalidade VARCHAR(100),
+  Logradouro VARCHAR(255),
+  Numero VARCHAR(20),
+  Complemento VARCHAR(100) NULL,
+  Bairro VARCHAR(100),
+  Cidade VARCHAR(100),
+  UF CHAR(2),
+  CEP VARCHAR(10),
+  DDD CHAR(3),
+  Telefone VARCHAR(20) NULL,
+  Fax VARCHAR(15) NULL,
+  Endereco_eletronico VARCHAR(255),
+  Representante VARCHAR(255),
+  Cargo_Representante VARCHAR(100),
+  Regiao_de_Comercializacao TINYINT NULL,
+  Data_Registro_ANS DATE NULL
+);

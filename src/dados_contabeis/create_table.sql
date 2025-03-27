@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS relatorio_contabil;
+
+CREATE TABLE relatorio_contabil (
+  DATA DATE, 
+  REG_ANS INT,
+  CD_CONTA_CONTABIL INT,
+  DESCRICAO VARCHAR(255),
+  VL_SALDO_INICIAL DECIMAL(15, 2),
+  VL_SALDO_FINAL DECIMAL(15, 2),
+  PERIODO VARCHAR(10) 
+);
+
+select * from relatorio_contabil;
