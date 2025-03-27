@@ -3,7 +3,6 @@
 A estrutura do projeto está organizada da seguinte forma:
 
 ```
-```
 Teste Banco De Dados/
 ├── src/  # Código-fonte do projeto
 │   ├── dados_cadastrais/  # Código relacionado aos dados cadastrais
