@@ -21,7 +21,7 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 
 1. Clone este repositório para sua máquina local:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/MarcoAntonioGritti/test-db-scripts.git
    ```
 2. Baixar extensões necessárias para trabalhar com o banco de dados:
 
